@@ -1,0 +1,123 @@
+
+
+.desc{
+    font-size: 10px;
+}
+
+.navbar{
+    background-color: #1e202b;
+}
+
+.navbar-nav .nav-item{
+    font-size: medium;
+}
+
+.navbar-nav .nav-item .active{
+    padding: 3px 30px 3px 30px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    color: #009ad8;
+}
+
+.notActive{
+    color: white;
+}
+.navbar-nav .nav-item:hover .notActive{
+    padding: 3px 20px 3px 20px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    color: #009ad8;
+    
+}
+/* 
+========================================== */
+
+.content {
+    background-image: url(../banner.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#1e202b;
+}
+.form-control{
+    border-radius: 30px;
+    height: 60px;
+    background-color: #1e202b;
+    border: #1e202b;
+
+}
+
+.form-control:focus{
+    border-radius: 30px;
+    height: 60px;
+    background-color: #1e202b;
+    border: #1e202b;
+    box-shadow: none;
+    color: white;
+}
+.form-control::placeholder{
+    color: lightgrey;
+    padding-left: 10px;
+}
+.btn1{
+    border: none;
+    padding:12px 30px 12px 30px;;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: white;
+
+    top:201px;
+    right: 205px;
+  
+}
+
+
+
+.foot .icons img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.container-all{
+    border-radius: 15px;
+    background-color:#262936;
+}
+/* ============================================== */
+footer{
+    background-color: #262936;
+}
+
+.btn2{
+    border: none;
+    padding:12px 30px 12px 30px;;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: white;
+    top: 6px;
+    right: 5;
+}
+
+.social-links .s{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2.5;
+    transition: 0.3s ease;
+    font-size: 15px;
+
+}
+
+.social-links .s:hover{
+    color: white;
+    background-color: #009ad8;
+
+}
